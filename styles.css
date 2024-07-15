@@ -1,0 +1,51 @@
+body {
+	background: black;
+}
+.postcard {
+	background-color: white;
+	width: 420px;
+	height: 320px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-top: 0.3cm;
+}
+.postcard-header h1 {
+	font-family: "Abel";
+	width: 9cm;
+	margin: none;
+	margin-left: 0.5cm;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	font: 17px "Abel";
+	margin-top: 0px;
+}
+.body-left,
+.body-right {
+	padding: 9px;
+}
+.postcard-body input {
+	border: none;
+	border-bottom: 1px solid grey;
+	font: 17px "Abel";
+}
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer button {
+	font: 16px "Abel";
+	background-color: #b8b8b8;
+	padding: 2px 2px 2px 2px;
+}
+.postcard-footer button:hover {
+	background-color: grey;
+	transition-duration: 0.4s;
+}
